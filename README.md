@@ -1,16 +1,160 @@
-# React + Vite
+# Image Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive **Image Gallery App** built using **React**, **Tailwind CSS**, and **Axios**. The application fetches images dynamically from the **Picsum Photos API** and displays them in a clean, modern gallery layout. Users can navigate through multiple pages of images using simple pagination controls.
 
-Currently, two official plugins are available:
+This project demonstrates practical implementation of React Hooks, API integration, asynchronous data fetching, state management, and dynamic rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Fetches images dynamically from the Picsum Photos API
+* Displays images in a responsive gallery layout
+* Shows the author's name for each image
+* Previous and Next page navigation
+* API requests using Axios
+* Dynamic UI updates using React Hooks
+* Responsive and clean user interface
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+* React
+* JavaScript (ES6+)
+* Tailwind CSS
+* Axios
+* Vite
+* Picsum Photos API
+
+---
+
+## Project Structure
+
+```text
+GalleryApp/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── Card.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── .oxlintrc.json
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Landing Page
+
+![Gallery App Landing Page](./src/assets/landing.png)
+
+### Pagination / Next Page
+
+![Gallery App Next Page](./src/assets/next.png)
+
+---
+
+## How to Use
+
+1. Open the Image Gallery App.
+2. Browse the images displayed on the current page.
+3. Click **Next** to view the next set of images.
+4. Click **Previous** to return to the previous page.
+5. View the author's name below each image.
+
+---
+
+## Learning Objectives
+
+This project helped me practice:
+
+* React Functional Components
+* React Hooks (`useState`, `useEffect`)
+* API Integration
+* Axios for HTTP Requests
+* Asynchronous JavaScript
+* State Management
+* Dynamic List Rendering
+* Pagination
+* Responsive UI Development
+
+---
+
+## Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/naitikbansal138/GalleryApp.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd GalleryApp
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the application
+
+Open the local URL displayed in your terminal, usually `http://localhost:5173`.
+
+---
+
+## Future Improvements
+
+* Add image search functionality
+* Add a fullscreen image preview
+* Implement lazy loading
+* Add infinite scrolling
+* Allow users to save favorite images
+* Display loading skeletons
+* Improve error handling for failed API requests
+
+---
+
+## API Used
+
+**Picsum Photos API**
+
+Endpoint: https://picsum.photos/v2/list
+
+---
+
+## Disclaimer
+
+This project was created for educational purposes to practice React development, API integration, and responsive UI design. Images are provided by the Picsum Photos API.
+
+---
+
+## Author
+
+**Naitik Bansal**
+
+GitHub: https://github.com/naitikbansal138
+
+---
+
+If you find this project useful, consider giving it a star on GitHub!
