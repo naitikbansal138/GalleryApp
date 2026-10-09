@@ -59,7 +59,7 @@ GalleryApp/
 
 ![Gallery App Landing Page](./src/assets/landing.png)
 
-### Pagination / Next Page
+###  Next Page
 
 ![Gallery App Next Page](./src/assets/next.png)
 
